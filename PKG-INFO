@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: scMINGLE
+Version: 1.1.0
+Summary: MINGLE: A mutual information-based interpretable framework for automatic cell type annotation in single-cell chromatin accessibility data
+Author: Yifan Huang
+Requires-Python: >=3.10.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: scanpy>=1.9.1
+Requires-Dist: torch>=2.0.1
+Requires-Dist: torch_geometric>=2.5.2
+Requires-Dist: scikit-learn>=1.3.2
+Requires-Dist: scipy>=1.11.4
+
+MINGLE is an a mutual information-based interpretable framework that leverages similarities and topological structures among cells for accurate cell type annotation. Additionally, we introduce a convex hull-based identification strategy to effectively identify novel cell types.
